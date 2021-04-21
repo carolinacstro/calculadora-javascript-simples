@@ -1,0 +1,50 @@
+/*arquivo css*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/*botões*/
+
+.container__calculadora {
+  width: 100%;
+  margin-top: 120px;
+}
+
+.container__button {
+  margin: auto;
+  width: 285px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+  background-color: #ffdade;
+  border: 1px solid #ffa0aa;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #c6767e;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #e28490;
+  color: #ffff;
+}
+
+.visor {
+  width: 285px;
+  height: 70px;
+  border: 1px solid #ffa0aa;
+  padding: 5px 25px 5px 25px;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #c6767e;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="imagens/icon-calculator.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <title>Calculadora Online</title>
+  </head>
+  <body>
+    <form action="" name="calc">
+      <div class="container__calculadora">
+        <div class="container__button">
+          <!--botões números-->
+
+          <input class="visor" name="visor" type="text" />
+
+          <input
+            class="button button-sete"
+            type="button"
+            value="7"
+            onclick="botao(value)"
+          />
+
+          <input
+            class="button button-oito"
+            type="button"
+            value="8"
+            onclick="botao(value)"
+          />
+
+          <input
+            class="button button-nove"
+            type="button"
+            value="9"
+            onclick="botao(value)"
+          />
+
+          <input
+            class="button button-oper"
+            type="button"
+            value="*"
+            onclick="botao(value)"
+          />
+
+          <input
+            class="button button-quatro"
+            type="button"
+            value="4"
+            onclick="botao(value)"
+          />
+
+          <input
+            class="button button-cinco"
+            type="button"
+            value="5"
+            onclick="botao(value)"
+          />
+
+          <input
+            class="button button-seis"
+            type="button"
+            value="6"
+            onclick="botao(value)"
+          />
+
+          <input
+            class="button button-oper"
+            type="button"
+            value="+"
+            onclick="botao(value)"
+          />
+
+          <input
+            class="button button-um"
+            type="button"
+            value="1"
+            onclick="botao(value)"
+          />
+
+          <input
+            class="button button-dois"
+            type="button"
+            value="2"
+            onclick="botao(value)"
+          />
+
+          <input
+            class="button button-tres"
+            type="button"
+            value="3"
+            onclick="botao(value)"
+          />
+
+          <input
+            class="button button-oper"
+            type="button"
+            value="/"
+            onclick="botao(value)"
+          />
+
+          <input
+            class="button button-zero"
+            type="button"
+            value="0"
+            onclick="botao(value)"
+          />
+
+          <input
+            class="button button-reset"
+            type="button"
+            value="C"
+            onclick="reseta()"
+          />
+
+          <input
+            class="button button-oper"
+            type="button"
+            value="="
+            onclick="calcula()"
+          />
+
+          <input
+            class="button button-oper"
+            type="button"
+            value="-"
+            onclick="calcula()"
+          />
+        </div>
+      </div>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
